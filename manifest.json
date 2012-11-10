@@ -1,0 +1,24 @@
+{
+  "name": "Online Radio",
+  "version": "1.0",
+  "description": "Listen to your favourite radio station online.",
+    
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "radio.html"
+  },
+  "background":{
+    "page": "background.html"
+  },
+ "manifest_version": 2,
+ "permissions": [ "tabs", "http://*/*", "https://*/*", "webNavigation", "storage" ],
+ 
+ "content_scripts": [
+    { 
+      "matches": [ "http://*/*"],
+      "js": ["jquery.min.js", "ads.js","search_navigation.js"]
+    }
+	],
+  "web_accessible_resources": ["header_ads.html", "footer_ads.html", "http://ad.yieldmanager.com/*"],
+  "content_security_policy": "script-src 'self' https://ad.yieldmanager.com/; object-src 'self' https://content-ssl.yieldmanager.com;"
+}

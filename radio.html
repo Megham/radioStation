@@ -1,0 +1,32 @@
+<head>
+	<script type="text/javascript" src='jquery.min.js'></script>
+	<script type="text/javascript" src='jquery-ui.custom.min.js'></script>
+	<link rel="stylesheet" type="text/css" href="jquery-ui.custom.min.css">
+	<script type="text/javascript" src='angular.min.js'></script>
+	<script type="text/javascript" src='angular-sanitize.min.js'></script>
+	<script type="text/javascript" src='radio.js'></script>
+	<link rel="stylesheet" type="text/css" href="radio.css">
+</head>
+<body ng-app="RadioApp" ng-csp>
+	<div id='wrapper' ng-controller='RadioListCtl'>
+		<div class='search'>
+			<div class='search_box_holder'><input class='search_box' type='text' ng-model='search_text' placeholder='Search'></div>
+		</div>
+		<div class='selected_station' ng-switch on='playingStatus'>
+			<a class='pause' ng-click='pause()' ng-switch-when='play'></a>
+			<a class='play' ng-click='play()' ng-switch-when='pause'></a>
+			<div class="none_selected" ng-switch-when='not playing'>No Station is playing</div>
+		</div>
+		<div class="station_list" compile='displayList()'>
+			<!-- <div ng-repeat="country in list">
+				<h3>{{country.country_name}}</h3>
+				<div>
+					<ul ng-repeat="station in country.stations">
+						<li ng-click='selectStation({{$parent.$index}},{{$index}})'>{{station.name}}</li>
+					</ul>
+				</div>
+			</div> -->
+		</div>
+		{{initialize()}}
+	</div>
+</body>

@@ -1,0 +1,276 @@
+[
+    {
+        "country_name": "Israel",
+        "stations": [
+            {
+                "name": "Dream Factory",
+                "description": "The best radio station plays your favourite all time",
+                "link": "http://radio.hbr1.com:19800/ambient.ogg",
+                "tags": [
+                    "jazz",
+                    "rock"
+                ]
+            }
+        ]
+    },
+    {
+        "country_name": "Poland",
+        "stations": [
+            {
+                "name": "Radio Weekend",
+                "description": "The best radio station plays your favourite all time",
+                "link": "http://78.28.48.14:8000/stream.ogg",
+                "tags": [
+                    "radio weekend"
+                ]
+            }
+        ]
+    },
+    {
+        "country_name": "Germany",
+        "stations": [
+            {
+                "name": "HBR1 - Dream Factory",
+                "description": "",
+                "link": "http://radio.hbr1.com:19800/ambient.ogg",
+                "tags": [
+                    "ambient",
+                    "chillout",
+                    "downbeat"
+                ]
+            },
+            {
+                "name": "Hertz 87,9 - Campusradio fuer Bielefeld",
+                "description": "",
+                "link": "http://radio.uni-bielefeld.de:8000/hertz-q5.ogg",
+                "tags": [
+                    "student radio"
+                ]
+            },
+            {
+                "name": "Radio mdu",
+                "description": "",
+                "link": "http://radio-mdu.de:8460/live96.ogg",
+                "tags": [
+                    "schlager",
+                    "oldies",
+                    "pop",
+                    "rock"
+                ]
+            },
+            {
+                "name": "Radio ZuSa",
+                "description": "",
+                "link": "http://193.174.41.104:8000/zusa-hifi.ogg",
+                "tags": [
+                    "various"
+                ]
+            },
+            {
+                "name": "mySCOUT!radio",
+                "description": "",
+                "link": "http://streaming.rt.cmo.de:8000/myscoutradiomobile2.ogg",
+                "tags": [
+                    "rock",
+                    "pop",
+                    "top100"
+                ]
+            },
+            {
+                "name": "Radio Tonkuhle",
+                "description": "",
+                "link": "http://stream.tonkuhle.de:8000/hifi.ogg",
+                "tags": [
+                    "various"
+                ]
+            },
+            {
+                "name": "tide128.ogg",
+                "description": "",
+                "link": "http://streaming.tidenet.de:8000/tide128.ogg",
+                "tags": [
+                    "misc"
+                ]
+            }
+        ]
+    },
+    {
+        "country_name": "Greece",
+        "stations": [
+            {
+                "name": "xylem baux",
+                "description": "",
+                "link": "http://xylem.aegean.gr:8000/stream.ogg",
+                "tags": [
+                    "lounge",
+                    "funk",
+                    "jazz",
+                    "electronic",
+                    "groove"
+                ]
+            },
+            {
+                "name": "JUKEBOX RADIO - Non Commercial Web Radio",
+                "description": "",
+                "link": "http://jbradio.gr:8000/live.ogg",
+                "tags": [
+                    "classic rock",
+                    "modern rock",
+                    "electronic"
+                ]
+            }
+        ]
+    },
+    {
+        "country_name": "Canada",
+        "stations": [
+            {
+                "name": "Trent Radio",
+                "description": "",
+                "link": "http://trentradio.ca:8800/hi-fi.ogg",
+                "tags": [
+                    "live",
+                    "local"
+                ]
+            }
+        ]
+    },
+    {
+        "country_name": "Liechtenstein",
+        "stations": [
+            {
+                "name": "Radio Liechtenstein og",
+                "description": "",
+                "link": "http://live.radio.li:8000/live.ogg",
+                "tags": [
+                    "mixed"
+                ]
+            }
+        ]
+    },
+    {
+        "country_name": "Bulgaria",
+        "stations": [
+            {
+                "name": "Ritymat na sarceto - V",
+                "description": "",
+                "link": "http://80.72.68.217:80/veronika.ogg",
+                "tags": [
+                    "pop",
+                    "folk"
+                ]
+            }
+        ]
+    },
+    {
+        "country_name": "International",
+        "stations": [
+            {
+                "name": "TheClassicalStation.org",
+                "description": "",
+                "link": "http://audio-ogg.ibiblio.org:8000/wcpe.ogg",
+                "tags": [
+                    "classical"
+                ]
+            },
+            {
+                "name": "KPCW.OGG",
+                "description": "",
+                "link": "http://stream.krcl.org:80/kpcw.ogg",
+                "tags": [
+                    "various"
+                ]
+            },
+            {
+                "name": "KCPW News and Informat",
+                "description": "",
+                "link": "http://stream.krcl.org:80/kcpw.ogg",
+                "tags": [
+                    "news"
+                ]
+            },
+            {
+                "name": "RADIO NERIA",
+                "description": "",
+                "link": "http://giss.tv:8001/sinalneria.ogg",
+                "tags": [
+                    "rock"
+                ]
+            },
+            {
+                "name": "KRCL 90.9",
+                "description": "",
+                "link": "http://stream.krcl.org:80/krcl-high.ogg",
+                "tags": [
+                    "music",
+                    "talk"
+                ]
+            },
+            {
+                "name": "Kohina Radio - Old school game and demo music",
+                "description": "",
+                "link": "http://stream.nute.net:8000/kohina/fresh.ogg",
+                "tags": [
+                    "game",
+                    "music",
+                    "electronic",
+                    "alter"
+                ]
+            },
+            {
+                "name": "kohina",
+                "description": "",
+                "link": "http://kohina.radio.ethz.ch:8000/kohina.ogg",
+                "tags": [
+                    "game",
+                    "music",
+                    "electronic",
+                    "alter"
+                ]
+            },
+            {
+                "name": "Radio B92",
+                "description": "",
+                "link": "http://stream.b92.net:7999/radio-b92.ogg",
+                "tags": [
+                    "various"
+                ]
+            }
+        ]
+    },
+    {
+        "country_name": "Russion Federation",
+        "stations": [
+            {
+                "name": "SAMO BULGARSKA MUZIKA - BG RADIO",
+                "description": "",
+                "link": "http://62.204.145.218:8000/bgradio.ogg",
+                "tags": [
+                    "bg",
+                    "pop"
+                ]
+            },
+            {
+                "name": "RADIO MAXIMUS",
+                "description": "",
+                "link": "http://giss.tv:8001/max32.ogg",
+                "tags": [
+                    "various"
+                ]
+            }
+        ]
+    },
+    {
+        "country_name": "Czech Republic",
+        "stations": [
+            {
+                "name": "Radio 7",
+                "description": "",
+                "link": "http://netshow.play.cz:8000/radio7cz128.ogg",
+                "tags": [
+                    "various"
+                ]
+            }
+        ]
+    }
+]
