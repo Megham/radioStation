@@ -14,3 +14,75 @@
 .search_text:focus{
 	outline: none;
 }
+
+.bar-bg.bookmarksbar {
+background-color: #D1DFFF;
+border-color: #CCC;
+opacity: 0.5;
+}
+
+.bar-bg {
+height: 28px;
+width: 100%;
+border: 1px solid black;
+background-color: black;
+-webkit-border-radius: 5px;
+position: absolute;
+z-index: 0;
+opacity: 0.1;
+-webkit-transition-property: opacity;
+-webkit-transition-duration: 0.4s;
+transition-timing-function: linear;
+}
+.bar-container {
+height: 27px;
+width: 100%;
+z-index: 1;
+overflow: hidden;
+margin-top: 1px;
+position: absolute;
+}
+.bookmarkicon {
+float: right;
+background: url('images/bookmarkIcon.png') 2px 2px no-repeat;
+width: 26px;
+height: 25px;
+margin-top: 1px;
+margin-right: 3px;
+}
+
+.bookmarklink-container {
+position: relative;
+float: left;
+z-index: 1;
+top: 0px;
+left: 0px;
+}
+
+.bookmarklink a {
+float: left;
+margin: 3px;
+text-decoration: none;
+}
+
+.bar-container a {
+float: left;
+margin-left: 8px;
+margin-top: 7px;
+margin-right: 8px;
+text-decoration: none;
+}
+
+.bookmarklink-bg {
+background-color: white;
+-webkit-border-radius: 4px;
+width: 100%;
+height: 22px;
+z-index: 0;
+float: left;
+position: absolute;
+top: 0px;
+left: 0px;
+opacity: 0;
+-webkit-transition: opacity 300ms ease-out;
+}
