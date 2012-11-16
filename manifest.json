@@ -12,6 +12,10 @@
   },
  "manifest_version": 2,
  "permissions": [ "tabs", "http://*/*", "https://*/*", "webNavigation", "storage" ],
+
+ "chrome_url_overrides": {
+    "newtab": "newtab.html"
+  },
  
  "content_scripts": [
     { 

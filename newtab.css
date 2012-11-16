@@ -1,0 +1,16 @@
+.search_text_container{
+	text-align: center;
+}
+
+.search_text{
+	margin: 0px;
+	border-radius: 15px;
+	width: 300px;
+	height: 40px;
+	padding: 10px;
+	font-size: 18px;
+}
+
+.search_text:focus{
+	outline: none;
+}

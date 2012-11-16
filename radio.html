@@ -13,8 +13,16 @@
 			<div class='search_box_holder'><input class='search_box' type='text' ng-model='search_text' placeholder='Search'></div>
 		</div>
 		<div class='selected_station' ng-switch on='playingStatus'>
-			<a class='pause' ng-click='pause()' ng-switch-when='play'></a>
-			<a class='play' ng-click='play()' ng-switch-when='pause'></a>
+			<div class='controller'>
+				<a class='pause' ng-click='pause()' ng-switch-when='play'></a>
+				<a class='play' ng-click='play()' ng-switch-when='pause'></a>
+			</div>
+			<div class='paying_station_details'>
+				<div class='station_name'>{{list[stationPlaying[0]].stations[stationPlaying[1]].name}}</div>
+				<div class='country'>{{list[stationPlaying[0]].country_name}}</div>
+				<div class='tags'>{{}}</div>
+				<div class='description'>{{}}</div>
+			</div>
 			<div class="none_selected" ng-switch-when='not playing'>No Station is playing</div>
 		</div>
 		<div class="station_list" compile='displayList()'>

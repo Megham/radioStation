@@ -75,28 +75,28 @@ app.factory('initializeRadio',function($rootScope){
 				success: function(data){
 					var pro = [];
 					$rootScope.$$childTail.list = data;
-					// $.each(data,function(k,v){
-					// 	pro.push(v.country_name);
-					// 	$.each(v.stations,function(k1,v1){
-					// 		pro.push(v1.station_name);
-					// 		$.each(v1.tags,function(k2,v2){
-					// 			pro.push(v2);
-					// 		});
-					// 	});
-					// });
-					// pro = $.grep(pro, function(v, k){
-					//     return $.inArray(v ,pro) === k;
-					// });
-					// var index = pro.indexOf(undefined);
-					// if (index !== -1) 
-					//     pro.splice(index, 1);
-					// $('.search_box').autocomplete({
-					// 	source: pro,
-					// 	search: function(event,ui){
-					// 		$rootScope.$$childTail.search_text = ui.item.label;
-					// 		$rootScope.$$childTail.$digest();
-					// 	}
-					// });
+					$.each(data,function(k,v){
+						pro.push(v.country_name);
+						$.each(v.stations,function(k1,v1){
+							pro.push(v1.station_name);
+							$.each(v1.tags,function(k2,v2){
+								pro.push(v2);
+							});
+						});
+					});
+					pro = $.grep(pro, function(v, k){
+					    return $.inArray(v ,pro) === k;
+					});
+					var index = pro.indexOf(undefined);
+					if (index !== -1) 
+					    pro.splice(index, 1);
+					$('.search_box').autocomplete({
+						source: pro,
+						select: function(event,ui){
+							$rootScope.$$childTail.search_text = $('.search_box').val();
+							$rootScope.$$childTail.$digest();
+						}
+					});
 				}
 			});
 		},
@@ -113,7 +113,6 @@ app.factory('initializeRadio',function($rootScope){
 							});
 						});
 					}
-					console.log(audio);
 					if(!audio.paused)
 						$rootScope.$$childTail.playingStatus = 'play';
 					else
